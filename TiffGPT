@@ -11,6 +11,8 @@
             font-family: 'Arial', sans-serif;
             text-align: center;
             color: darkblue;
+            margin: 0;
+            padding: 0;
         }
 
         h1 {
@@ -23,18 +25,43 @@
             margin: 20px;
         }
 
-        .genie {
-            width: 200px;
-            margin: 20px auto;
+        .question-container {
+            margin: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 1em;
+            border: 2px solid darkblue;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            margin-left: 10px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 
 <body>
     <h1>Welcome to Tiff GPT!</h1>
-    <img https://i.pinimg.com/736x/9b/5b/59/9b5b592ad3c642628b2d9aa12aeeacde.jpg alt="Genie" class="genie">
-    <p>Ask Tiff GPT any question, and it will be answered 100% correctly 100% of the time!</p>
-    <p>What would you like to ask?</p>
+    <p>Ask a question to Tiff GPT, and Tiff GPT has the 100% right answer 100% of the time!</p>
+    
+    <div class="question-container">
+        <input type="text" id="question" placeholder="Type your question here...">
+        <input type="submit" value="Ask">
+    </div>
 </body>
 
 </html>
