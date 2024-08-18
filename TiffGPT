@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiff GPT</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: darkblue;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 20px;
+        }
+
+        .genie {
+            width: 200px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to Tiff GPT!</h1>
+    <img https://i.pinimg.com/736x/9b/5b/59/9b5b592ad3c642628b2d9aa12aeeacde.jpg alt="Genie" class="genie">
+    <p>Ask Tiff GPT any question, and it will be answered 100% correctly 100% of the time!</p>
+    <p>What would you like to ask?</p>
+</body>
+
+</html>
